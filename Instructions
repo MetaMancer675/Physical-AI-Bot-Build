@@ -1,0 +1,9 @@
+## Instructions
+
+Materials: Arduino Uno, 6 male to male wires, bread board, and 5 LEDs with colors of your choice
+
+Step 1: Plug 1 wire from GND to 1J(+), another wire to 5F(+), one to 11F(+), one to 18F(+), one to 24F(+), and one to 30F(+) (all the wires except GND should be from 8-12 on the Digital - PWM~)
+Step 2: Plug the LED's adjacent to the wires making sure each one of the LED's legs sticks into the nameless (+) column and connect your Arduino via USB to a microsoft laptop
+Step 3: Open Ardunio IDE, import the file named "Arduino_Code" provided in this git, then upload it to your Arduino
+Step 2: Open your command prompt and install Python 3.11.9 (must be this version) then install opencv, pyserial, and mediapipe version 10.9.9.0 (must be this version), all through the command prompt as well
+Step 3: Open Microsoft Visual Studio code and import the file named "handtest" into a terminal, make sure to change the arduino's com port to your specific port in line 5, run the code and then your Arduino should light up your LED's corresponding to fingers
